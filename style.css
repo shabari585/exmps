@@ -1,0 +1,627 @@
+*{
+    outline: none !important
+}
+.body1{
+    position: relative;
+    display: block;
+    left: 0;
+    background-color: #f5f5f5;
+}
+.nav-display .fa-bars{
+    display: none;
+}
+.nav-display-div .fa-bars{
+    display: none;
+}
+#nav-fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+}
+.active{
+    background-color: #edf3f4;
+}
+.header-text{
+    color: #28494b;
+}
+.nav-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    flex-direction: row;
+    margin: 0px;
+    color: white;
+    width: 100%;
+}
+
+.nav-display .navbar-ul a li{
+    color: #fff;
+    font-weight: 420;
+}
+.nav-display-div{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    vertical-align: middle;
+    color: #28494b;
+    width: 100%;
+}
+.navbar-list li{
+    float: left;
+    padding: 0px 15px;
+    list-style-type: none;
+    color: #fff;
+    display: block
+}
+.navbar-list li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.navbar-list1 li{
+    float: left;
+    padding: 0px 15px;
+    list-style-type: none;
+    color: #fff;
+    display: block
+}
+.navbar-list1 li a{
+    color: #28494b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.navbar-ul .ul-nav1 li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 13px;
+    color: #28494b;
+    text-transform: uppercase;
+}
+.ul-nav1 li a{
+    color: #28494b;
+     font-weight: 420;
+    font-size: 85%;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 2
+}
+
+
+.nav-display .ul-nav li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 13px;
+    text-transform: uppercase;
+    font-size: 85%;
+    cursor: pointer    
+}
+
+
+.img-section{
+    width: 100%;
+}
+.home-img{
+    background-image: url('http://www.petradesign.ca/images/interiorPage/domes/17_web_07.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.pvc-gypsum{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 0.5px solid #ddd;
+    vertical-align: middle;
+     transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+}
+.pvc-gypsum:hover{
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    cursor: pointer
+}
+.pvc-gypsum .p1{
+    text-align: center;
+    /* vertical-align: middle; */
+    font-weight: 650;
+    font-size: 90%;
+    height: 20px;
+    /* line-height: 2 */
+}
+.pvc-gypsum li{
+    color: #000;
+    font-size: 85%;
+    list-style-type: none;
+    text-align: center
+}
+.pvc-text{
+    height: 35%;
+    vertical-align: middle;
+    padding: 7px;
+}
+.pvc-text i{
+    
+    font-size: 80%;
+}
+.pvc-gypsum-raw{
+    background-image: url('images/raw-block.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+    
+}
+
+.pvc-gypsum-polish{
+    background-image: url('images/grey-granite-bollard-250x250.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-finishes{
+    background-image: url('images/wood-finishes-h1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-colours{
+    background-image: url('images/wood.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-img{
+    background-image: url('images/PVC-Gypsum-Boards.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-img1{
+    background-image: url('images/Calcium-Silicate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-fibre{
+    background-image: url('images/Fibre-Glass-Ceiling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-gypsum-perforated{
+    background-image: url('images/Perforated-Gypsum-Ceiling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-ceiling{
+    background-image: url('https://pimg.tradeindia.com/02556849/b/1/PVC-Ceiling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden; 
+}
+.pvc-wall-panels{
+    background-image: url('images/wall-ceiling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden; 
+}
+.pvc-steel-grids{
+    background-image: url('https://sc01.alicdn.com/kf/HTB1lDr5SXXXXXbAXVXXq6xXFXXXO/galvanized-steel-grid-panels-for-building-construction.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden; 
+}
+.pvc-false-ceiling{
+    background-image: url('images/false-ceil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-wall-panel{
+    background-image: url('images/wall-panel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.pvc-wall-ceiling{
+    background-image: url('images/wall-ceiling.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+ .h{
+    font-size: 120%;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 650;
+    text-align: center;
+}
+.products-h{
+     font-size: 100%;
+    color: #619fdd;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+}
+
+/*pop-up*/
+.pop-up-back{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    overflow: hidden;
+    top: 0%;
+}
+.pop-up-container{
+    position: fixed;
+    border: 0.5px solid #ddd;
+    height: auto;
+    min-height: 90%;
+    width: 60%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    z-index: 100000;
+}
+.pop-up-padding{
+    padding: 40px;
+}
+.pop-up-div{
+    width: 70%;
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%)
+}
+.pop-up-container .pvc-gypsum{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 0.5px solid #ddd;
+    vertical-align: middle;
+     transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+}
+.pop-up-div:after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 60%;
+    top: -70%;
+    transform: translate(-50%,0%);
+    height: 237%;
+    width: 0.5px;
+    background-color: #000;
+    justify-content: space-between;
+}
+.pop-up-row{
+    position: relative;
+/*    top: 6.5%;*/
+}
+#pop-icon{
+    float: right;   
+    cursor: pointer;
+    position: relative;
+}
+#pop-icon i{
+    position: relative;
+    left: -50%;
+    top: 50%;
+    transform: translate(-50%,50%)
+}
+
+.footer{
+    width: 100%;
+    background-color: #0f2d33;
+}
+.footer h2{
+    text-transform: uppercase;
+    font-size: 120%;
+    color: #fff;
+    text-align: center;
+    font-weight: 650;
+}
+.footer li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 90%;
+}
+.footer i{
+    font-size: 110%;
+}
+.social li{
+    float: left;
+    padding: 0px 10px;
+    cursor: pointer;    
+}
+.footer h6{
+    font-size: 95%;
+    color:white;
+    text-decoration: underline;
+    text-decoration-style: solid
+}
+.copy-right{
+    position: relative;
+    height: auto;
+    padding: 5px;
+}
+.copy-right .container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.copy-right i{
+    color: #1B9DFF;
+}
+.copy-right span{
+    color: #666666;
+    font-size: 75%;
+    font-weight: 500;
+    
+}
+.copy-right span .asteriisc{
+    color: #007BFF;
+    font-size: 100%;
+    font-weight: 500;
+    cursor: pointer
+}
+.asteriisc:hover{
+    text-decoration: underline;
+    text-decoration-color: #007BFF 
+}
+.copy-right p span:hover{
+    text-decoration: underline;
+    text-decoration-color:#007BFF;
+    cursor: pointer; 
+}
+.btn-default{
+    background-color: #0F2D33;
+    border-color: transparent;
+    text-align: center;
+    color: #fff;
+    left: 45%;   
+    position: relative;
+    cursor: pointer;
+}
+.btn-default a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-default a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-img{
+    background-image: url('http://www.2chinagranite.com/pic/big/196_0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20%;  
+}
+.about1{
+    width: 100%;
+    height: auto;
+}
+.about1 .container{
+    background-color: #f7f7f8;
+}
+.about,.about1 p{
+    font-size: 90%;
+    text-align: justify;
+}
+.contact-img{
+   background-image: url('https://images.unsplash.com/photo-1454997423871-b5215756e54d?auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;  
+   
+}
+.contact-back{
+    background-color: black;
+    opacity: 0.8;
+   width: 100%;
+    height: 100%;
+}
+.contact-img li{
+    color: #fff;
+    list-style-type: none;
+    z-index: 1000;
+}
+.contact-row{
+    top: 50%;
+    transform: translate(0,30%)
+}
+.contact-img .form-control,textarea{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    z-index: 1000;
+    outline: none !important;
+    border-collapse: collapse;
+}
+.contact-img textarea{
+    width: 100%;
+}
+.contact-img h2{
+    color: #fff;
+}
+.address{
+    float: right;
+}
+.contact-img button{
+    position: relative;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+    color: #fff;
+    left: 80%;
+}
+.contact-col{
+    width: 70%;
+}
+.location{
+    width: 140%;
+    left: -50%;
+    transform: translate(-30%,0)
+}
+
+@media screen and (min-width:220px) and (max-width:740px){
+   .nav-display{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    flex-direction: row;
+    margin: 0px;
+    color: white;
+    width: 60%;
+} 
+    
+    .nav-logo{
+        align-items: center;
+        text-align: center;
+    }
+    .nav-display .fa-bars{
+        display: block;
+    }
+    .btn-default{
+    background-color: #0F2D33;
+    border-color: transparent;
+    text-align: center;
+    color: #fff;
+    left: 35%;   
+    position: relative;
+    cursor: pointer;
+}
+    .nav-display-div .fa-bars{
+        display: block;
+    }
+    .nav-display-div{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    vertical-align: middle;
+    color: #28494b;
+    width: 60%;
+}
+.pvc-gypsum{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 0.5px solid #ddd;
+    vertical-align: middle;
+     transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s;
+   
+}
+    #navbar-ul{
+    z-index: 10;
+    position: fixed;
+    display: block;
+    top: 0vh;
+    left: -50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: #000;
+}
+#navbar-ul1{
+    z-index: 10;
+    position: fixed;
+    display: block;
+    top: 0vh;
+    left: -50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: #000;
+}
+.contact-row{
+  top: 50%;
+  transform: translate(0,10%)
+}
+.location{
+  width: 140%;
+  left: -50%;
+  transform: translate(-10%,0)
+}
+   
+}
+
