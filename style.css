@@ -22,7 +22,7 @@
     background-color: #edf3f4;
 }
 .header-text{
-    color: #28494b;
+    color: #28494b !important;
 }
 .nav-display{
     display: flex;
